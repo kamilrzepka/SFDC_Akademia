@@ -1,0 +1,11 @@
+<aura:component implements="force:appHostable,force:hasRecordId,flexipage:availableForAllPageTypes" access="global">
+    <aura:attribute name="defaultInit" type="String" default="employees"/>
+    <aura:attribute name="cmpBody" type="Object" />
+
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:handler event="c:PL_SelectedComponentNameEvent" action="{!c.handleName}"/>
+
+    <lightning:card title="Component" >
+        {!v.cmpBody}
+    </lightning:card>
+</aura:component>

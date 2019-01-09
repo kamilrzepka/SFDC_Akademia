@@ -1,0 +1,14 @@
+<aura:component implements="force:appHostable,force:hasRecordId,flexipage:availableForAllPageTypes" access="global">
+    <lightning:card title="">
+        <lightning:layout class="slds-p-around--large" >
+            <lightning:layoutItem flexibility="grow" size="2">
+                    <c:PL_NavigationBar/>
+            </lightning:layoutItem>
+            <lightning:layoutItem flexibility="grow" size="10">
+                <lightning:card title="">
+                    <c:PL_ContentContainer/>
+                </lightning:card>
+            </lightning:layoutItem>
+        </lightning:layout>
+    </lightning:card>
+</aura:component>

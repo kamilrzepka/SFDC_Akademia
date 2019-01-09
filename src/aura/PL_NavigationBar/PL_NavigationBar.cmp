@@ -1,0 +1,32 @@
+<aura:component implements="force:appHostable,force:hasRecordId,flexipage:availableForAllPageTypes" access="global">
+
+    <aura:attribute name="currentContent" type="String" />
+    <aura:attribute name="selectedItem" type="String" />
+    <aura:handler name="init" value="{! this }" action="{! c.init }" />
+    <aura:registerEvent name="navName" type="c:SelectedName"/>
+
+        <lightning:verticalNavigation selectedItem="{! v.selectedItem }" onselect="{! c.handleSelect }" >
+            <lightning:verticalNavigationSection label="Menu" >
+                <lightning:verticalNavigationItemIcon label="Employees" name="employees" iconName="utility:groups" />
+                <lightning:verticalNavigationItemIcon label="Items" name="items" iconName="utility:desktop" />
+                <lightning:verticalNavigationItemIcon label="Sets" name="sets" iconName="utility:opened_folder"/>
+                <lightning:verticalNavigationItemIcon label="Assignements" name="assignements" iconName="utility:edit"/>
+                <lightning:verticalNavigationItemIcon label="Users" name="users" iconName="utility:user"/>
+                <lightning:verticalNavigationItemIcon label="Reports" name="reports" iconName="utility:graph"/>
+            </lightning:verticalNavigationSection>
+
+            <lightning:verticalNavigationOverflow aura:id="overflow" class="show-more-1" title="Object">
+                <lightning:verticalNavigationItemIcon label="Location" name="location" iconName="utility:checkin"/>
+                <lightning:verticalNavigationItemIcon label="Brands" name="brands" iconName="utility:company"/>
+                <lightning:verticalNavigationItemIcon label="Item Types" name="itemtypes" iconName="utility:type"/>
+                <lightning:verticalNavigationItemIcon label="Models" name="models" iconName="utility:push"/>
+                <lightning:verticalNavigationItemIcon label="Owners" name="owners" iconName="utility:identity"/>
+            </lightning:verticalNavigationOverflow>
+
+            <lightning:verticalNavigationSection label="More">
+                <lightning:verticalNavigationItemIcon label="About" name="about" iconName="utility:question_mark"/>
+                <lightning:verticalNavigationItemIcon label="Help" name="help" iconName="utility:info"/>
+            </lightning:verticalNavigationSection>
+
+        </lightning:verticalNavigation>
+</aura:component>

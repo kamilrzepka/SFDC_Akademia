@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ASFDC_AccountTriggerHandler</members>
+        <members>ASFDC_ContactTriggerHandler</members>
+        <members>ASFDC_CustomClass</members>
+        <members>ASFDC_SecondCustomClass</members>
+        <members>ASFDC_TaankInfo</members>
+        <members>ASFDC_TankControllerExtension</members>
+        <members>ASFDC_TankCustomController</members>
+        <members>ASFDC_TriggerFactory</members>
+        <members>ASFDC_TriggerHandler</members>
+        <members>ASFDC_TurretDetail</members>
+        <members>ASFDC_TurretOneDetail</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>ASFDC_AllType</members>
+        <members>ASFDC_GunDetailExtension</members>
+        <members>ASFDC_TankCustomView</members>
+        <members>ASFDC_TankExtensionView</members>
+        <members>ASFDC_TankStandardrView</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>ASFDC_Contact_Ref_Trigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>PL_ContentContainer</members>
+        <members>PL_MainContainer</members>
+        <members>PL_NavigationBar</members>
+        <members>PL_SelectedComponentNameEvent</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>Trailhead</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>PL_ObjectDefinitionLabel</members>
+        <members>TankLabelPL</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>DuplicateRule</name>
+    </types>
+    <types>
+        <members>ASFDC_AllTypes__c-AllTypes Layout</members>
+        <members>ASFDC_AllTypes__c-Custom Layout</members>
+        <members>ASFDC_Employee__c-ASFDC_Employee Layout</members>
+        <members>ASFDC_Employee__c-Custom Layout</members>
+        <members>ASFDC_Employee__c-HR manager</members>
+        <members>ASFDC_Gun__c-ASFDC Gun Layout</members>
+        <members>ASFDC_Invoice__c-ASFDC_Invoice Layout</members>
+        <members>ASFDC_Soldier_Pole__c-ASFDC Soldier Pole Layout</members>
+        <members>ASFDC_Tank__c-ASFDC Tank Layout</members>
+        <members>ASFDC_Tank__c-new</members>
+        <members>ASFDC_Turret__c-ASFDC Turret Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>ASFDC_AllTypes__c.All</members>
+        <members>ASFDC_Employee__c.All</members>
+        <members>ASFDC_Gun__c.All</members>
+        <members>ASFDC_Invoice__c.All</members>
+        <members>ASFDC_Soldier_Pole__c.All</members>
+        <members>ASFDC_Tank__c.All</members>
+        <members>ASFDC_Turret__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <version>44.0</version>
+</Package>

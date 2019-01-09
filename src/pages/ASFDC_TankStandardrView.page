@@ -1,0 +1,19 @@
+<apex:page standardController="ASFDC_Tank__c" recordSetVar="allTank">
+        <table border="0">
+
+            <tr>
+                <th>Name</th>
+            </tr>
+
+            <apex:repeat value="{!allTank}" var="tank">
+                <tr>
+                     <td><apex:outputText value="{!tank.Name}" ></apex:outputText></td>
+                </tr>
+            </apex:repeat>
+        </table>
+        <apex:pageBlock >
+            <apex:pageBlockTable value="{!allTank}" var="tank">
+                <apex:column value="{!tank.Name}"/>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+</apex:page>

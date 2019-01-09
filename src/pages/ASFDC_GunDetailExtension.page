@@ -1,0 +1,10 @@
+<apex:page standardController="ASFDC_Gun__c" extensions="GunDetailExtension">
+    <!--<apex:detail subject="{!ASFDC_Gun__c}" relatedList="false" title="false" />-->
+
+    <apex:pageBlock >
+        <apex:pageBlockSection >
+        <apex:outputField value="{!gunDetail.Name}" />
+        <apex:outputField value="{!gunDetail.ASFDC_Turret_del__r.Name}" />
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

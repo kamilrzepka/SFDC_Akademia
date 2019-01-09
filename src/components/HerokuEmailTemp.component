@@ -1,0 +1,13 @@
+<apex:component controller="EmailTemplateControllerHeroku" access="global">
+  <!-- Begin Default Content REMOVE THIS -->
+    <apex:attribute name="alfaId" type="ID" description="sample" required="true" assignTo="{!alfaIdRecord}" access="global"/>
+
+        {!alf.Name}
+        {!alf.Imie__c}
+        {!alf.Nazwisko__c}
+        {!alf.Email__c}
+        {!alf.Opis__c}
+        {!alf.Specjalna_wiadomosc__c}
+        {!dateSend}
+  <!-- End Default Content REMOVE THIS -->
+</apex:component>

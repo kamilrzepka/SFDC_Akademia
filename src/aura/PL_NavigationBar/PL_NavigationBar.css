@@ -1,0 +1,17 @@
+.THIS {
+
+    border-right: 1px solid #e7e7e7;
+}
+.THIS .slds-nav-vertical__action-text{
+
+}
+
+.THIS .show-more-1 > .slds-nav-vertical__action .slds-nav-vertical__action-text {
+ display: none;
+}
+
+.THIS .show-more-1 > .slds-nav-vertical__action::after {
+    content: 'Object definition';
+    text-shadow: none;
+    color: rgb(62, 62, 60);
+}

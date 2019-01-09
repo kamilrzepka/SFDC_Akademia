@@ -1,0 +1,2 @@
+<apex:page standardController="ASFDC_Tank__c" extensions="ASFDC_TankControllerExtension">
+</apex:page>

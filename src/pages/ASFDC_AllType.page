@@ -1,0 +1,7 @@
+<apex:page standardController="ASFDC_AllTypes__c">
+
+    <script>
+        alert('{!$ObjectType.ASFDC_AllTypes__c.fields.ASFDC_Number__c.type}'+' '+{!ASFDC_AllTypes__c.ASFDC_Number__c}+'\n')
+    </script>
+    <apex:detail subject="{!ASFDC_AllTypes__c.Id}" relatedList="false" title="false"/>
+</apex:page>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>PL_ObjectDefinitionLabel</fullName>
+        <categories>PL_NavigationLabel</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PL_ObjectDefinitionLabel</shortDescription>
+        <value>Object Definition</value>
+    </labels>
+    <labels>
+        <fullName>TankLabelPL</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TankLabelPL</shortDescription>
+        <value>Tank name</value>
+    </labels>
+</CustomLabels>
