@@ -35,4 +35,5 @@ trigger ASFDC_Contact_Ref_Trigger on Contact(after insert,after update) {
 	allContacts.addAll(contacts.values());
 
 	update allContacts;
+	//testjenkins
 }
